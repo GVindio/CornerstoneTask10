@@ -9,6 +9,6 @@ yum install -y git
 curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 git clone https://github.com/GVindio/CornstoneTask11.git
-cd /node.js-CornerStone/
-docker build -t noode .
-docker run -t -d -p 3030:3030 noode
+cd //CornstoneTask11/
+docker build -t node_terraform .
+docker run -t -d -p 3030:3030 node_terraform
